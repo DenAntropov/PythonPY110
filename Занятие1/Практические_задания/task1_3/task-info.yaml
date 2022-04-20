@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 128
-    length: 286
+    length: 94
     placeholder_text: |-
       # TODO заменить на функцию max и функцию get_distance
           list_distances = list(map(get_distance, points))
@@ -23,7 +23,7 @@ files:
       offset: 128
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: return max(points, key=get_distance)
   text: |
     def get_distance(point: tuple) -> int:
@@ -53,11 +53,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 20 Apr 2022 16:43:02 UTC
-  expected: |
-    (6.8, -3)
-  actual: <no output>
+  message: Congratulations!
+  time: Wed, 20 Apr 2022 17:24:59 UTC
 record: -1
