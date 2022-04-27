@@ -17,8 +17,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 68
-    length: 56
+  - offset: 69
+    length: 55
     placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
     initial_state:
       length: 63
@@ -46,5 +46,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 27 Apr 2022 16:54:21 UTC
+  time: Wed, 27 Apr 2022 17:46:54 UTC
 record: -1

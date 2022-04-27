@@ -22,6 +22,7 @@ if __name__ == "__main__":
 
     try:
         print(next(my_second_gen))
-    except StopIteration:
-        print("Генератор закончился")
+    except StopIteration as my_second_gen:
+        print(my_second_gen)
+        print("Генератор закончился!")
         print_exc()
