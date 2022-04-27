@@ -1,6 +1,8 @@
 def make_string_upper(fn):
     def wrapper():
-        fn()  # TODO перевести результат исходной функции в верхний регистр
+        upper_ = fn()
+        upper_ = upper_.upper()
+        return upper_
     return wrapper
 
 
